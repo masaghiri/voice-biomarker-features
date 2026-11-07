@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voice-biomarker-features"
+version = "0.1.0"
+description = "Acoustic voice features (pitch, jitter, shimmer, HNR, CPPS, formants) computed with Praat via parselmouth."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "M. Ali Saghiri" }]
+requires-python = ">=3.9"
+dependencies = ["praat-parselmouth>=0.4", "numpy", "scipy"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["voice_features"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

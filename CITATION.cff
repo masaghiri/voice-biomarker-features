@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Voice biomarker features: acoustic voice measures computed with Praat"
+version: 0.1.0
+date-released: 2026-11-06
+license: MIT
+repository-code: "https://github.com/masaghiri/voice-biomarker-features"
+authors:
+  - family-names: Saghiri
+    given-names: "M. Ali"
+    orcid: "https://orcid.org/0000-0002-5064-7828"
+references:
+  - type: article
+    title: "Exploring the impact of type II diabetes mellitus on voice quality"
+    authors:
+      - family-names: Saghiri
+        given-names: "M. A."
+    journal: "European Archives of Oto-Rhino-Laryngology"
+    year: 2024
+    volume: 281
+    issue: 5
+    start: 2707
+    end: 2716
+    doi: "10.1007/s00405-024-08485-4"
